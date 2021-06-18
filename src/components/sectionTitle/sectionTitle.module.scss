@@ -1,0 +1,11 @@
+.h3{
+  color: #19083D;
+  font-weight: bold;
+  text-transform: capitalize;
+  span{
+    margin-left: 5px;
+  }
+  @media (min-width: 992px) {
+    font-size: 36px;
+  }
+}

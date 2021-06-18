@@ -1,0 +1,58 @@
+.bgAsImg{
+  background: url("/images/bg/footer.svg");
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  img{
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 199px;
+  }
+}
+
+.footerLogo{
+  text-align: center;
+}
+
+.footerMenu{
+  text-align: center;
+  margin-top: 44px;
+  .footerMenuLink{
+    margin-left: 34px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8F86A1;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    &:hover{
+      color: #1A083E;
+    }
+  }
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 54px;
+  margin-bottom: 86px;
+  p{
+    font-size: 23px;
+    color: #C2C8D2;
+    font-weight: bold;
+    text-transform: capitalize;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
+    @media (max-width: 992px) {
+      font-size: 20px;
+    }
+    @media (max-width: 554px) {
+      font-size: 17px;
+    }
+  }
+}
+
+.pt141{
+  padding-top: 141px;
+}
